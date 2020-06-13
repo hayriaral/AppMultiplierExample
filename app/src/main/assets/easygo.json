@@ -1,0 +1,23 @@
+{
+  "easyGoVersion": "1.0",
+  "client": "com.hayriaral.appmultiplierexample",
+  "logicEntities": [
+    {
+      "head": {
+        "function": "magicwindow",
+        "required": "true"
+      },
+      "body": {
+        "mode":"1",
+        "activityPairs":[
+          {"from":"com.hayriaral.appmultiplierexample.MainActivity","to":"*"},
+          {"from":"com.hayriaral.appmultiplierexample.Contacts","to":"com.hayriaral.appmultiplierexample.FavoriteContacts"},
+          {"from":"com.hayriaral.appmultiplierexample.Email","to":"com.hayriaral.appmultiplierexample.Inbox"},
+          {"from":"com.hayriaral.appmultiplierexample.Email","to":"com.hayriaral.appmultiplierexample.JunkEmail"}
+        ],
+        "transActivities":[
+        ]
+      }
+    }
+  ]
+}
